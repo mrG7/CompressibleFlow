@@ -1,9 +1,9 @@
-﻿Log file open, 10/23/17 00:31:44
+﻿Log file open, 10/23/17 00:56:59
 LogInit:Display: Running engine for game: LocalMesh
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(317284249) SRandInit(317284249).
+LogInit:Display: RandInit(-142424639) SRandInit(-142424639).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.090391
+LogStats: Stats thread started at 0.078989
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,1019 +43,467 @@ LogInit: Compiled (64-bit): May 21 2017 11:02:34
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.23-04.31.45:834][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-04.31.45:834][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.23-04.31.45:851][  0]LogInit: Computer: DESKTOP-9EHHM5S
-[2017.10.23-04.31.45:851][  0]LogInit: User: isyna
-[2017.10.23-04.31.45:851][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.10.23-04.31.45:851][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2017.10.23-04.31.45:851][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.10.23-04.31.45:851][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.23-04.31.45:851][  0]LogMemory: Process Physical Memory: 263.36 MB used, 263.36 MB peak
-[2017.10.23-04.31.45:851][  0]LogMemory: Process Virtual Memory: 262.23 MB used, 262.23 MB peak
-[2017.10.23-04.31.45:851][  0]LogMemory: Physical Memory: 14195.86 MB used,  18508.04 MB free, 32703.89 MB total
-[2017.10.23-04.31.45:851][  0]LogMemory: Virtual Memory: 644.83 MB used,  18508.04 MB free, 134217728.00 MB total
-[2017.10.23-04.31.45:996][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.10.23-04.31.46:888][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.23-04.31.46:932][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.10.23-04.31.46:932][  0]LogD3D11RHI:       8074/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2017.10.23-04.31.46:933][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.23-04.31.46:933][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.23-04.31.46:933][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.23-04.31.46:942][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.23-04.31.46:942][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.23-04.31.46:942][  0]LogWindows: EnumDisplayDevices:
-[2017.10.23-04.31.46:942][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.10.23-04.31.46:942][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.10.23-04.31.46:942][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.10.23-04.31.46:943][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.10.23-04.31.46:943][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.23-04.31.46:943][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.10.23-04.31.46:943][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.10.23-04.31.46:943][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.10.23-04.31.46:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.23-04.31.46:975][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.23-04.31.46:987][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.23-04.31.47:132][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Intermediate/Shaders/WorkingDirectory/1976/).
-[2017.10.23-04.31.47:132][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/isyna/AppData/Local/Temp/UnrealShaderWorkingDir/DE359AAF41683BF01CA747BC97FEB87F/'.
-[2017.10.23-04.31.47:132][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.10.23-04.31.48:819][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.23-04.31.48:910][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.10.23-04.31.48:999][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.23-04.31.49:091][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.10.23-04.31.49:181][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.10.23-04.31.49:276][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.23-04.31.49:377][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.23-04.31.49:474][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.23-04.31.49:553][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.10.23-04.31.49:647][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.10.23-04.31.49:741][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.23-04.31.49:830][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.23-04.31.49:922][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.23-04.31.50:017][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.23-04.31.50:123][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.23-04.31.50:313][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.23-04.31.50:313][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.23-04.31.50:382][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.10.23-04.31.50:531][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.10.23-04.31.50:594][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.10.23-04.31.50:694][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.23-04.31.50:788][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.23-04.31.50:884][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.23-04.31.50:983][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.10.23-04.31.50:983][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.10.23-04.31.51:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.10.23-04.31.51:859][  0]LogDerivedDataCache: Loaded boot cache 0.07s 61MB C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.23-04.31.51:859][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.10.23-04.31.51:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.23-04.31.51:860][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.23-04.31.51:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.23-04.31.51:860][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.23-04.31.51:883][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.23-04.31.51:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/isyna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.23-04.31.51:909][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.23-04.31.51:910][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-04.31.51:910][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-04.31.52:281][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-04.31.52:285][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.23-04.31.52:636][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.23-04.31.52:717][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.23-04.31.52:802][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.23-04.31.52:802][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.10.23-04.31.52:802][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.10.23-04.31.53:614][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: localmesh, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4029464774
-[2017.10.23-04.31.53:677][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2017.10.23-04.31.53:756][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.037513 seconds
-[2017.10.23-04.31.53:765][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
-[2017.10.23-04.31.53:765][  0]LogUObjectAllocator: 7077256 out of 0 bytes used by permanent object pool.
-[2017.10.23-04.31.53:765][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.23-04.31.53:887][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.23-04.31.56:595][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.23-04.31.56:691][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.23-04.31.57:477][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.23-04.31.58:136][  0]SourceControl: Info Source control is disabled
-[2017.10.23-04.31.58:176][  0]SourceControl: Info Source control is disabled
-[2017.10.23-04.31.58:260][  0]SourceControl: Info Source control is disabled
-[2017.10.23-04.31.58:342][  0]SourceControl: Info Source control is disabled
-[2017.10.23-04.31.58:883][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2017.10.23-04.31.58:883][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2017.10.23-04.31.58:883][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2017.10.23-04.32.00:551][  0]LogEngine: Initializing Engine...
-[2017.10.23-04.32.00:552][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.23-04.32.00:719][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.23-04.32.00:719][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.23-04.32.00:944][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.23-04.32.00:952][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.23-04.32.00:978][  0]LogInit: FAudioDevice initialized.
-[2017.10.23-04.32.01:022][  0]LogDerivedDataCache: Saved boot cache 0.04s 61MB C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.23-04.32.01:036][  0]LogInit: Texture streaming: Enabled
-[2017.10.23-04.32.01:226][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.23-04.32.01:388][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.10.23-04.32.01:425][  0]LogInit: Transaction tracking system initialized
-[2017.10.23-04.32.02:119][  0]BlueprintLog: New page: Editor Load
-[2017.10.23-04.32.03:919][  0]LocalizationService: Info Localization service is disabled
-[2017.10.23-04.32.05:786][  0]LogConsoleResponse:Display: 
-[2017.10.23-04.32.05:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/' took 0.01s
-[2017.10.23-04.32.05:973][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.23-04.32.05:973][  0]LogCook:Display: Mobile HDR setting 1
-[2017.10.23-04.32.07:877][  0]SourceControl: Info Source control is disabled
-[2017.10.23-04.32.07:877][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.32.07:878][  0]LightingResults: New page: Lighting Build
-[2017.10.23-04.32.07:954][  0]MapCheck: New page: Map Check
-[2017.10.23-04.32.07:954][  0]LightingResults: New page: Lighting Build
-[2017.10.23-04.32.08:289][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.23-04.32.08:316][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.23-04.32.08:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.32.08:327][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.32.08:384][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.892ms to complete.
-[2017.10.23-04.32.08:384][  0]LogFileHelpers: Loading map 'Template_Default' took 0.507
-[2017.10.23-04.32.09:018][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.10.23-04.32.09:078][  0]LogCollectionManager: Loaded 0 collections in 0.002021 seconds
-[2017.10.23-04.32.09:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/Collections/' took 0.01s
-[2017.10.23-04.32.09:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Developers/isyna/Collections/' took 0.01s
-[2017.10.23-04.32.09:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Collections/' took 0.01s
-[2017.10.23-04.32.09:220][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.10.23-04.32.09:237][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2246 classes and 455 folders.
-[2017.10.23-04.32.09:356][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.10.23-04.32.09:975][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.10.23-04.32.09:996][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.10.23-04.32.10:126][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.10.23-04.32.10:127][  0]LogLoad: (Engine Initialization) Total time: 27.21 seconds
-[2017.10.23-04.32.10:127][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
-[2017.10.23-04.32.10:127][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.10.23-04.32.10:187][  0]LogOcInput: OculusInput pre-init called
-[2017.10.23-04.32.10:216][  0]LogContentStreaming: Texture pool size now 600 MB
-[2017.10.23-04.32.10:220][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-04.32.10:227][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.23-04.32.10:407][  0]LogRenderer: Reallocating scene render targets to support 1372x936 NumSamples 1 (Frame:2).
-[2017.10.23-04.32.10:581][  1]LogAssetRegistry: Asset discovery search completed in 16.9250 seconds
-[2017.10.23-04.32.10:581][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2017.10.23-04.32.10:581][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2017.10.23-04.32.11:766][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.10.23-04.32.11:951][ 62]LogSlate: Took 0.007408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.23-04.32.12:232][ 74]Cmd: EDIT CUT
-[2017.10.23-04.32.12:240][ 74]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.23-04.32.12:261][ 74]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2017.10.23-04.32.17:610][352]Cmd: EDIT CUT
-[2017.10.23-04.32.17:614][352]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2017.10.23-04.32.17:629][352]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2017.10.23-04.32.20:087][490]Cmd: EDIT CUT
-[2017.10.23-04.32.20:091][490]LogEditorActor: Deleted Actor: DirectionalLight
-[2017.10.23-04.32.20:102][490]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.10.23-04.32.20:811][530]Cmd: EDIT CUT
-[2017.10.23-04.32.20:814][530]LogEditorActor: Deleted Actor: AtmosphericFog
-[2017.10.23-04.32.20:831][530]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2017.10.23-04.32.27:361][839]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2017.10.23-04.33.01:032][574]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
-[2017.10.23-04.33.46:971][959]Cmd: EDIT COPY
-[2017.10.23-04.33.47:291][978]Cmd: EDIT PASTE
-[2017.10.23-04.34.02:481][811]LogEditorViewport: Clicking Background
-[2017.10.23-04.34.45:486][212]LogEditorViewport: Clicking Background
-[2017.10.23-04.35.46:178][966]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-04.35.46:533][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.35.46:748][966]LogSavePackage: Save=188.15ms
-[2017.10.23-04.35.46:748][966]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMapE8595DCE40F7902A21F6E891DBE7CB47.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap'
-[2017.10.23-04.35.46:756][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap
-[2017.10.23-04.35.46:838][966]LogFileHelpers: Saving map 'NewMap' took 0.771
-[2017.10.23-04.35.47:619][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.35.47:754][  6]LogSavePackage: Save=106.92ms
-[2017.10.23-04.35.47:754][  6]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap934FCCB54423453A9B7A2D8E6D93914A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap'
-[2017.10.23-04.35.47:756][  6]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap
-[2017.10.23-04.35.48:661][ 28]LogSlate: Took 0.009205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.23-04.35.50:333][ 92]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-04.35.52:310][187]LogAIModule: Creating AISystem for world NewMap2
-[2017.10.23-04.35.57:829][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap2" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.35.58:000][406]LogSavePackage: Save=149.77ms
-[2017.10.23-04.35.58:001][406]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap22AB1073A4CD6332C36F694A304F746BA.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap'
-[2017.10.23-04.35.58:004][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap
-[2017.10.23-04.35.58:089][406]LogFileHelpers: Saving map 'NewMap2' took 0.330
-[2017.10.23-04.35.58:901][445]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.35.58:902][445]LightingResults: New page: Lighting Build
-[2017.10.23-04.35.58:904][445]LoadErrors: New page: Loading map: NewMap2.umap
-[2017.10.23-04.35.58:906][445]MapCheck: New page: Map Check
-[2017.10.23-04.35.58:906][445]LightingResults: New page: Lighting Build
-[2017.10.23-04.35.58:928][445]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.35.58:966][445]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.35.59:035][445]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.481ms to complete.
-[2017.10.23-04.35.59:037][445]LogFileHelpers: Loading map 'NewMap2' took 0.137
-[2017.10.23-04.36.07:078][837]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
-[2017.10.23-04.36.31:798][241]Cmd: EDIT COPY
-[2017.10.23-04.36.32:085][258]Cmd: EDIT PASTE
-[2017.10.23-04.37.00:471][862]Cmd: EDIT COPY
-[2017.10.23-04.37.00:783][880]Cmd: EDIT PASTE
-[2017.10.23-04.37.24:530][217]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
-[2017.10.23-04.37.34:370][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap2" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.37.34:567][764]LogSavePackage: Save=169.72ms
-[2017.10.23-04.37.34:567][764]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap2B41C37DB4045B0ABD1DDEDAEFAA21F86.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap'
-[2017.10.23-04.37.34:572][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap
-[2017.10.23-04.37.37:516][908]LogAIModule: Creating AISystem for world NewMap3
-[2017.10.23-04.37.44:180][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap2" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.37.44:317][165]LogSavePackage: Save=121.35ms
-[2017.10.23-04.37.44:320][165]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap201E42F564DA46D487BF15EA65FD4CED6.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap'
-[2017.10.23-04.37.44:325][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap
-[2017.10.23-04.37.44:340][165]LogFileHelpers: Saving map 'NewMap2' took 0.224
-[2017.10.23-04.37.44:421][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.37.44:553][165]LogSavePackage: Save=112.46ms
-[2017.10.23-04.37.44:553][165]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap30674CC9C46ADA417644B02A491BC5551.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.37.44:556][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.37.44:560][165]LogFileHelpers: Saving map 'NewMap3' took 0.201
-[2017.10.23-04.37.45:115][195]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.37.45:116][195]LightingResults: New page: Lighting Build
-[2017.10.23-04.37.45:118][195]LoadErrors: New page: Loading map: NewMap3.umap
-[2017.10.23-04.37.45:119][195]MapCheck: New page: Map Check
-[2017.10.23-04.37.45:119][195]LightingResults: New page: Lighting Build
-[2017.10.23-04.37.45:136][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.37.45:167][195]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.37.45:224][195]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.437ms to complete.
-[2017.10.23-04.37.45:225][195]LogFileHelpers: Loading map 'NewMap3' took 0.111
-[2017.10.23-04.37.52:252][577]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush3)
-[2017.10.23-04.37.53:861][659]LogEditorViewport: Clicking Background
-[2017.10.23-04.37.58:162][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.37.58:293][894]LogSavePackage: Save=108.35ms
-[2017.10.23-04.37.58:293][894]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap3A76E8F5B4E146CEF30F20185A46B9645.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.37.58:294][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.38.16:467][831]LogAIModule: Creating AISystem for world NewMap4
-[2017.10.23-04.38.17:390][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap4" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.38.17:529][867]LogSavePackage: Save=116.13ms
-[2017.10.23-04.38.17:530][867]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap498BD33B54D9FA6036AE9DBAF28165E30.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap'
-[2017.10.23-04.38.17:534][867]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap
-[2017.10.23-04.38.17:537][867]LogFileHelpers: Saving map 'NewMap4' took 0.210
-[2017.10.23-04.38.27:303][349]LogStaticMesh: Building static mesh EdgeMesh...
-[2017.10.23-04.38.27:307][349]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
-[2017.10.23-04.38.27:651][349]LogStaticMesh: Built static mesh [0.35s] /Game/EdgeMesh.EdgeMesh
-[2017.10.23-04.38.27:660][349]LogActorFactory: Actor Factory created EdgeMesh
-[2017.10.23-04.38.27:716][349]EditorErrors: New page: Actor Reattachment
-[2017.10.23-04.38.28:995][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EdgeMesh)
-[2017.10.23-04.38.32:176][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EdgeMesh)
-[2017.10.23-04.38.53:603][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EdgeMesh)
-[2017.10.23-04.38.54:508][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EdgeMesh)
-[2017.10.23-04.39.03:409][231]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
-[2017.10.23-04.39.11:003][666]Cmd: TRANSACTION UNDO
-[2017.10.23-04.39.11:003][666]LogEditorTransaction: Undo Scale Actors
-[2017.10.23-04.39.11:047][666]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-04.39.15:255][873]Cmd: TRANSACTION UNDO
-[2017.10.23-04.39.15:255][873]LogEditorTransaction: Undo Scale Actors
-[2017.10.23-04.39.19:021][ 77]Cmd: TRANSACTION UNDO
-[2017.10.23-04.39.19:021][ 77]LogEditorTransaction: Undo Scale Actors
-[2017.10.23-04.39.44:619][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.39.44:668][424]LogSavePackage: Save=33.84ms
-[2017.10.23-04.39.44:668][424]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap311F15E304763095837F0DABB2B7345FD.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.39.44:672][424]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.39.53:541][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EdgeMesh" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/EdgeMesh.uasset" SILENT=true
-[2017.10.23-04.39.53:564][792]LogSavePackage: Save=19.96ms
-[2017.10.23-04.39.53:564][792]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/EdgeMesh4A8418404117FE2EC359E68AB75B5CF6.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/EdgeMesh.uasset'
-[2017.10.23-04.39.53:567][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/EdgeMesh.uasset
-[2017.10.23-04.39.53:636][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.39.53:699][792]LogSavePackage: Save=44.96ms
-[2017.10.23-04.39.53:699][792]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap3C38E56464A1EEC33185B17A7D4298821.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.39.53:703][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.39.53:718][792]LogFileHelpers: Saving map 'NewMap3' took 0.145
-[2017.10.23-04.39.59:639][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.39.59:655][119]LogSavePackage: Save=12.55ms
-[2017.10.23-04.39.59:655][119]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis478213DC41CB7DE0C48247A5C3B4C8E3.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.39.59:658][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.40.01:035][181]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0010 seconds. Added 2 classes and 2 folders.
-[2017.10.23-04.40.24:308][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.40.24:338][455]LogSavePackage: Save=16.87ms
-[2017.10.23-04.40.24:338][455]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis41C470A547A9F40C2F27C1AD35B784AB.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.40.24:342][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.40.43:601][356]LogMaterial:Warning: Material /Game/Spot.Spot needed to have new flag set bUsedWithParticleSprites !
-[2017.10.23-04.40.43:604][356]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.43:607][356]LogTemp:Display: Added material ShaderMap 0x00000189EAA1A080 with Material 0x00000189960B5C00 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.43:671][356]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189EAA1A080
-[2017.10.23-04.40.43:671][356]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.40.46:142][478]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.46:143][478]LogTemp:Display: Added material ShaderMap 0x00000189FD0C8B80 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.46:157][478]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189FD0C8B80
-[2017.10.23-04.40.46:315][478]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.46:316][478]LogTemp:Display: Added material ShaderMap 0x00000189A1A6A780 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.46:329][478]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189A1A6A780
-[2017.10.23-04.40.46:330][478]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.40.46:383][478]LogSlate: Took 0.007492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.23-04.40.50:067][668]LogTemp:Display: Finished compile of shader map 0x00000189A1A6A780
-[2017.10.23-04.40.50:067][668]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189A1A6A780, marking material Spot as finished
-[2017.10.23-04.40.50:067][668]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.40.51:362][671]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.51:363][671]LogTemp:Display: Added material ShaderMap 0x00000189A1A69600 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.51:376][671]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189A1A69600
-[2017.10.23-04.40.51:376][671]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.40.51:452][672]LogTemp:Display: Finished compile of shader map 0x00000189EAA1A080
-[2017.10.23-04.40.51:452][672]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189EAA1A080, marking material Spot as finished
-[2017.10.23-04.40.51:452][672]LogTemp:Display: Marking material as finished 0x00000189960B5C00
-[2017.10.23-04.40.52:857][675]LogTemp:Display: Finished compile of shader map 0x00000189A1A69600
-[2017.10.23-04.40.52:857][675]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189A1A69600, marking material Spot as finished
-[2017.10.23-04.40.52:857][675]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.40.53:763][724]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.53:765][724]LogTemp:Display: Added material ShaderMap 0x00000189CAE8E780 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.53:778][724]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189CAE8E780
-[2017.10.23-04.40.53:778][724]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.40.55:575][816]LogTemp:Display: Finished compile of shader map 0x00000189CAE8E780
-[2017.10.23-04.40.55:575][816]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189CAE8E780, marking material Spot as finished
-[2017.10.23-04.40.55:575][816]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.40.55:589][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
-[2017.10.23-04.40.55:589][817]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.10.23-04.40.55:589][817]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.10.23-04.40.59:481][ 45]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.59:483][ 45]LogTemp:Display: Added material ShaderMap 0x00000189A21AAB00 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.59:510][ 45]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189A21AAB00
-[2017.10.23-04.40.59:515][ 45]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.40.59:516][ 45]LogTemp:Display: Added material ShaderMap 0x00000189A27BF580 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.40.59:533][ 45]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189A27BF580
-[2017.10.23-04.40.59:533][ 45]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.40.59:937][ 60]LogTemp:Display: Finished compile of shader map 0x00000189A21AAB00
-[2017.10.23-04.40.59:937][ 60]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189A21AAB00, marking material Spot as finished
-[2017.10.23-04.40.59:937][ 60]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.02:897][191]LogTemp:Display: Finished compile of shader map 0x00000189A27BF580
-[2017.10.23-04.41.02:897][191]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189A27BF580, marking material Spot as finished
-[2017.10.23-04.41.02:897][191]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.02:909][192]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2017.10.23-04.41.02:909][192]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
-[2017.10.23-04.41.02:909][192]MaterialEditorStats: Info Vertex shader: 83 instructions
-[2017.10.23-04.41.02:909][192]MaterialEditorStats: Info Texture samplers: 4/16
-[2017.10.23-04.41.05:599][345]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.05:600][345]LogTemp:Display: Added material ShaderMap 0x00000189956DDD00 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.05:617][345]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189956DDD00
-[2017.10.23-04.41.05:617][345]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.08:469][506]LogTemp:Display: Finished compile of shader map 0x00000189956DDD00
-[2017.10.23-04.41.08:469][506]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189956DDD00, marking material Spot as finished
-[2017.10.23-04.41.08:469][506]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.16:696][995]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.16:697][995]LogTemp:Display: Added material ShaderMap 0x00000189DA5FCB80 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.16:715][995]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189DA5FCB80
-[2017.10.23-04.41.16:715][995]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.19:667][140]LogTemp:Display: Finished compile of shader map 0x00000189DA5FCB80
-[2017.10.23-04.41.19:667][140]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189DA5FCB80, marking material Spot as finished
-[2017.10.23-04.41.19:667][140]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.19:750][145]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2017.10.23-04.41.19:750][145]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
-[2017.10.23-04.41.19:750][145]MaterialEditorStats: Info Vertex shader: 83 instructions
-[2017.10.23-04.41.19:750][145]MaterialEditorStats: Info Texture samplers: 4/16
-[2017.10.23-04.41.23:440][349]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.23:442][349]LogTemp:Display: Added material ShaderMap 0x00000189EAA18100 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.23:458][349]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189EAA18100
-[2017.10.23-04.41.23:458][349]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.23:461][349]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.23:462][349]LogTemp:Display: Added material ShaderMap 0x00000189A1A6A080 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.23:480][349]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189A1A6A080
-[2017.10.23-04.41.23:481][349]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.24:983][422]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.24:984][422]LogTemp:Display: Added material ShaderMap 0x00000189CAD59D00 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.25:002][422]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189CAD59D00
-[2017.10.23-04.41.25:002][422]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.26:010][465]LogTemp:Display: Finished compile of shader map 0x00000189A1A6A080
-[2017.10.23-04.41.26:010][465]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189A1A6A080, marking material Spot as finished
-[2017.10.23-04.41.26:010][465]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.26:557][497]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.26:559][497]LogTemp:Display: Added material ShaderMap 0x00000189E493F580 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.26:576][497]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189E493F580
-[2017.10.23-04.41.26:576][497]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.28:340][570]LogTemp:Display: Finished compile of shader map 0x00000189CAD59D00
-[2017.10.23-04.41.28:340][570]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189CAD59D00, marking material Spot as finished
-[2017.10.23-04.41.28:340][570]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.30:069][658]LogTemp:Display: Finished compile of shader map 0x00000189E493F580
-[2017.10.23-04.41.30:069][658]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189E493F580, marking material Spot as finished
-[2017.10.23-04.41.30:069][658]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.30:081][659]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2017.10.23-04.41.30:081][659]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
-[2017.10.23-04.41.30:081][659]MaterialEditorStats: Info Vertex shader: 83 instructions
-[2017.10.23-04.41.30:081][659]MaterialEditorStats: Info Texture samplers: 4/16
-[2017.10.23-04.41.31:584][748]LogMaterialEditor: Saving and Compiling material Spot
-[2017.10.23-04.41.32:423][748]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.32:424][748]LogTemp:Display: Added material ShaderMap 0x00000189E493C480 with Material 0x000001898E08E480 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.32:462][748]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189E493C480
-[2017.10.23-04.41.32:462][748]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.32:514][748]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.32:515][748]LogTemp:Display: Added material ShaderMap 0x00000189CAD5AB00 with Material 0x00000189CAD45900 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.32:575][748]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189CAD5AB00
-[2017.10.23-04.41.32:579][748]LogMaterial: Missing cached shader map for material Spot, compiling. 
-[2017.10.23-04.41.32:580][748]LogTemp:Display: Added material ShaderMap 0x00000189E51A5280 with Material 0x00000189CAD45900 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.32:634][748]LogTemp:Display: Kicking off shader compilation for Spot, GameThreadShaderMap 0x00000189E51A5280
-[2017.10.23-04.41.32:636][748]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.23-04.41.32:655][748]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Spot, compiling. 
-[2017.10.23-04.41.32:657][748]LogTemp:Display: Added material ShaderMap 0x00000189E58FE780 with Material 0x00000189E597DF00 to ShaderMapsBeingCompiled
-[2017.10.23-04.41.34:359][748]LogTemp:Display: Finished compile of shader map 0x00000189E58FE780
-[2017.10.23-04.41.34:359][748]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Spot complete, GameThreadShaderMap 0x00000189E58FE780, marking material FDebugViewModeMaterialProxy Spot as finished
-[2017.10.23-04.41.34:359][748]LogTemp:Display: Marking material as finished 0x00000189E597DF00
-[2017.10.23-04.41.34:363][748]TextureStreamingBuild:Display: Compiling optional shaders took 1.716 seconds.
-[2017.10.23-04.41.59:532][748]LogTemp:Display: Finished compile of shader map 0x00000189E51A5280
-[2017.10.23-04.41.59:532][748]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189E51A5280, marking material Spot as finished
-[2017.10.23-04.41.59:532][748]LogTemp:Display: Marking material as finished 0x00000189CAD45900
-[2017.10.23-04.41.59:569][748]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-04.41.59:574][748]LogTemp:Display: Finished compile of shader map 0x00000189E493C480
-[2017.10.23-04.41.59:574][748]LogTemp:Display: Shader map Spot complete, GameThreadShaderMap 0x00000189E493C480, marking material Spot as finished
-[2017.10.23-04.41.59:574][748]LogTemp:Display: Marking material as finished 0x000001898E08E480
-[2017.10.23-04.41.59:592][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spot" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Spot.uasset" SILENT=true
-[2017.10.23-04.41.59:617][748]LogSavePackage: Save=21.19ms
-[2017.10.23-04.41.59:617][748]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/SpotCC14F5BD493149704C74DA851ECD775A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Spot.uasset'
-[2017.10.23-04.41.59:621][748]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Spot.uasset
-[2017.10.23-04.41.59:629][748]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2017.10.23-04.41.59:629][748]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
-[2017.10.23-04.41.59:629][748]MaterialEditorStats: Info Vertex shader: 83 instructions
-[2017.10.23-04.41.59:629][748]MaterialEditorStats: Info Texture samplers: 7/16
-[2017.10.23-04.42.06:631][144]LogCascade: Non-seeded module ParticleModuleLocationPrimitiveCylinder
-[2017.10.23-04.42.14:771][616]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.15:917][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.15:937][677]LogSavePackage: Save=16.40ms
-[2017.10.23-04.42.15:937][677]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis10AF9E1146D20B5630240A8DD8114CA6.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.15:941][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.22:425][ 45]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.22:825][ 69]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.23:753][124]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.24:200][151]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.24:518][170]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.24:832][189]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.26:461][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.26:483][279]LogSavePackage: Save=18.36ms
-[2017.10.23-04.42.26:484][279]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis316BBEEA4F72CDF5919160BD0A8C2924.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.26:488][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.31:555][574]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.42.33:284][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.33:306][667]LogSavePackage: Save=18.46ms
-[2017.10.23-04.42.33:306][667]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis0A2EBE3047CF3A6FCC14F98D3AED032A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.33:310][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.34:327][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.34:344][721]LogSavePackage: Save=12.76ms
-[2017.10.23-04.42.34:344][721]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis58BA7FDB4F8CC134D1A97C96B837A614.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.34:345][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.34:475][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.34:493][726]LogSavePackage: Save=13.65ms
-[2017.10.23-04.42.34:493][726]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis9C58126B446433A57DC3638D986960B2.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.34:494][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.39:809][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.39:831][ 11]LogSavePackage: Save=17.72ms
-[2017.10.23-04.42.39:831][ 11]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisEEAE1B354FD778C13BF6D9979476C5D5.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.39:835][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.40:656][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.40:672][ 51]LogSavePackage: Save=13.15ms
-[2017.10.23-04.42.40:672][ 51]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis79BFA46541AF6230F09D7F82A80AEC92.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.40:674][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.42.41:742][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.42.41:760][ 97]LogSavePackage: Save=13.20ms
-[2017.10.23-04.42.41:760][ 97]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis3AAE64F64F40E7FB600E19B06E9FFABF.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.42.41:761][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.43.03:925][331]EditorErrors: New page: Actor attachment
-[2017.10.23-04.43.08:733][595]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
-[2017.10.23-04.43.26:202][607]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.43.27:569][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.43.27:588][681]LogSavePackage: Save=14.86ms
-[2017.10.23-04.43.27:588][681]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis47CD188C4D75AB8E02E8ECB0A563BD6B.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.43.27:591][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.43.33:488][ 28]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.43.38:423][317]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.43.39:640][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.43.39:662][379]LogSavePackage: Save=17.72ms
-[2017.10.23-04.43.39:662][379]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisB76201DE4B49B098C3843EA197B664F8.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.43.39:666][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.00:957][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.44.01:025][571]LogSavePackage: Save=41.02ms
-[2017.10.23-04.44.01:025][571]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap30CB802094BACEF01270F039ED1B99670.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.44.01:029][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.44.05:631][813]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.06:944][892]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.08:097][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.08:117][952]LogSavePackage: Save=15.72ms
-[2017.10.23-04.44.08:117][952]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis4B748C85446128F196601499D94AFD91.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.08:120][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.10:422][ 78]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.10:988][112]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.11:673][153]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.12:324][192]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.12:957][230]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.14:283][307]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.14:429][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.14:454][313]LogSavePackage: Save=21.48ms
-[2017.10.23-04.44.14:454][313]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis061F45DA423AD836804F5092E468DA59.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.14:458][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.15:097][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.15:114][340]LogSavePackage: Save=12.69ms
-[2017.10.23-04.44.15:114][340]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis5A5C38CA4CBD238890797CB7FB553EC3.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.15:115][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.15:772][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.15:789][372]LogSavePackage: Save=13.43ms
-[2017.10.23-04.44.15:789][372]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis53DE353043E529A9315F018A70628860.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.15:790][372]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.30:069][191]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.35:852][527]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.44.36:702][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.36:725][566]LogSavePackage: Save=18.51ms
-[2017.10.23-04.44.36:725][566]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis995AD865498D1744BDE1758F23E00350.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.36:729][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.37:529][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.44.37:547][597]LogSavePackage: Save=13.31ms
-[2017.10.23-04.44.37:547][597]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis29D862184BDD1742D96B759BF212376B.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.44.37:548][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.44.41:177][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.44.41:237][793]LogSavePackage: Save=43.35ms
-[2017.10.23-04.44.41:237][793]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap30A4DF48345D74DFC66D72FA07051E5C3.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.44.41:238][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.44.48:826][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.44.48:893][205]LogSavePackage: Save=50.94ms
-[2017.10.23-04.44.48:893][205]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap3FCFA169040B7961A992BFE8112F4944A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.44.48:896][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.44.48:914][205]LogFileHelpers: Saving map 'NewMap3' took 0.147
-[2017.10.23-04.44.50:941][320]LogAIModule: Creating AISystem for world NewMap5
-[2017.10.23-04.44.52:928][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap5" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.44.52:989][362]LogSavePackage: Save=41.57ms
-[2017.10.23-04.44.52:989][362]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap5C23564BD4C9F937432CF59846C1CA042.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap'
-[2017.10.23-04.44.52:992][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap
-[2017.10.23-04.44.52:993][362]LogFileHelpers: Saving map 'NewMap5' took 0.123
-[2017.10.23-04.44.52:997][362]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.44.52:997][362]LightingResults: New page: Lighting Build
-[2017.10.23-04.44.52:999][362]LoadErrors: New page: Loading map: NewMap5.umap
-[2017.10.23-04.44.53:000][362]MapCheck: New page: Map Check
-[2017.10.23-04.44.53:000][362]LightingResults: New page: Lighting Build
-[2017.10.23-04.44.53:046][362]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.44.53:080][362]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.44.53:141][362]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.628ms to complete.
-[2017.10.23-04.44.53:142][362]LogFileHelpers: Loading map 'NewMap5' took 0.147
-[2017.10.23-04.45.11:414][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.45.11:431][362]LogSavePackage: Save=13.20ms
-[2017.10.23-04.45.11:431][362]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis7A130E064207E2EFFA8126A46C9570EE.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.45.11:435][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.45.15:982][596]LogEditorViewport: Clicking Background
-[2017.10.23-04.45.25:594][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.45.25:619][133]LogSavePackage: Save=14.11ms
-[2017.10.23-04.45.25:619][133]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis531BBBED4DFCFFC3289C5E85EBFAB1D6.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.45.25:620][133]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.45.26:126][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.45.26:141][157]LogSavePackage: Save=12.29ms
-[2017.10.23-04.45.26:141][157]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis895F731E4EFF1F41A1CAE38449A166E7.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.45.26:143][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.45.32:778][522]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.45.34:286][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.45.34:308][605]LogSavePackage: Save=17.75ms
-[2017.10.23-04.45.34:308][605]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis9FF54F4B4F3E56ED31E7F79323DFA057.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.45.34:312][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.45.37:070][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.45.37:087][763]LogSavePackage: Save=12.76ms
-[2017.10.23-04.45.37:087][763]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisA4E7D8124F46B23CC2A2F69524277124.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.45.37:089][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.45.42:560][ 80]LogEditorViewport: Clicking on Actor (LMB): Emitter (FlowAnalysis)
-[2017.10.23-04.46.02:304][183]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.02:905][219]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.03:757][270]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.06:838][450]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.07:813][504]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.09:116][582]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.09:527][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.46.09:549][603]LogSavePackage: Save=17.85ms
-[2017.10.23-04.46.09:549][603]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisA375B2244A6893E4D0680C88843A2969.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.46.09:556][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.46.11:332][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.46.11:347][705]LogSavePackage: Save=11.12ms
-[2017.10.23-04.46.11:347][705]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis2F91B86C4C59EF21BF479581D5558A12.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.46.11:348][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.46.24:511][474]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.46.25:776][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.46.25:800][536]LogSavePackage: Save=19.68ms
-[2017.10.23-04.46.25:800][536]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis1E9A68BB404EFDE3764B3695728B4CD7.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.46.25:804][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.46.58:870][437]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.00:454][532]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.06:173][872]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.09:597][ 74]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.11:153][166]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.11:599][193]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.17:449][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.17:470][540]LogSavePackage: Save=17.07ms
-[2017.10.23-04.47.17:470][540]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisA0099E3D4AB21E37AFAA3B94BDBA3B13.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.17:474][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.29:153][215]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.30:063][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.30:083][266]LogSavePackage: Save=16.73ms
-[2017.10.23-04.47.30:083][266]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisC440BFC84D26341C3EAAFE989E1695FB.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.30:087][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.30:558][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.30:575][292]LogSavePackage: Save=13.41ms
-[2017.10.23-04.47.30:575][292]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisE4DD9A234146FA3E2F795E93048C7816.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.30:576][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.30:809][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.30:824][303]LogSavePackage: Save=11.17ms
-[2017.10.23-04.47.30:824][303]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis19AF689A436146AD6D5207B67686C19A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.30:825][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.31:024][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.31:040][312]LogSavePackage: Save=12.59ms
-[2017.10.23-04.47.31:040][312]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis3CA0DF3A43FC979AE39035B1249ED6C0.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.31:041][312]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.32:696][411]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.33:341][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.33:359][436]LogSavePackage: Save=14.73ms
-[2017.10.23-04.47.33:359][436]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis4C4BC8714FD37BFC8D56B891B8990BF4.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.33:362][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.36:818][641]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.38:524][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.38:542][741]LogSavePackage: Save=14.43ms
-[2017.10.23-04.47.38:542][741]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis60B8D23244256ADE5F8316975C8CF820.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.38:545][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.46:101][193]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.47.50:787][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.47.50:817][459]LogSavePackage: Save=25.53ms
-[2017.10.23-04.47.50:817][459]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysisF3E3EF074CD932EF2EC6B3A2863D1025.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.47.50:821][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.47.57:003][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap5" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.47.57:066][794]LogSavePackage: Save=40.72ms
-[2017.10.23-04.47.57:066][794]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap5A735F8C448713E0A671457A678F6BF89.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap'
-[2017.10.23-04.47.57:070][794]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap
-[2017.10.23-04.47.58:543][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-04.47.58:546][861]PIE: New page: PIE session: NewMap5 (Oct 22, 2017, 8:47:58 PM)
-[2017.10.23-04.47.58:547][861]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap5
-[2017.10.23-04.47.58:548][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001485s)
-[2017.10.23-04.47.58:549][861]LogAIModule: Creating AISystem for world NewMap5
-[2017.10.23-04.47.58:549][861]LogPlayLevel: PIE: World Init took: (0.000710s)
-[2017.10.23-04.47.58:550][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap5.NewMap5 to /Game/UEDPIE_0_NewMap5.NewMap5 (0.003367s)
-[2017.10.23-04.47.58:566][861]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.23-04.47.58:583][861]LogInit: FAudioDevice initialized.
-[2017.10.23-04.47.58:724][861]LogLoad: Game class is 'GameModeBase'
-[2017.10.23-04.47.58:727][861]LogWorld: Bringing World /Game/UEDPIE_0_NewMap5.NewMap5 up for play (max tick rate 60) at 2017.10.23-00.47.58
-[2017.10.23-04.47.58:730][861]LogWorld: Bringing up level for play took: 0.004239
-[2017.10.23-04.47.58:813][861]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2017.10.23-04.47.58:822][861]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap5 -0.628
-[2017.10.23-04.48.31:112][772]LogAIModule: Creating AISystem for world NewMap
-[2017.10.23-04.48.32:510][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis2" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis2.uasset" SILENT=true
-[2017.10.23-04.48.32:526][772]LogSavePackage: Save=12.41ms
-[2017.10.23-04.48.32:526][772]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis2FFD986E44E6A1EF4F000B9BC47221853.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis2.uasset'
-[2017.10.23-04.48.32:528][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis2.uasset
-[2017.10.23-04.48.32:529][772]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.48.32:529][772]LightingResults: New page: Lighting Build
-[2017.10.23-04.48.32:531][772]LoadErrors: New page: Loading map: NewMap.umap
-[2017.10.23-04.48.32:532][772]MapCheck: New page: Map Check
-[2017.10.23-04.48.32:532][772]LightingResults: New page: Lighting Build
-[2017.10.23-04.48.32:545][772]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.48.32:562][772]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.48.32:608][772]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.717ms to complete.
-[2017.10.23-04.48.32:608][772]LogFileHelpers: Loading map 'NewMap' took 0.079
-[2017.10.23-04.48.42:047][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.48.42:724][244]LogSavePackage: Save=97.47ms
-[2017.10.23-04.48.42:725][244]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMapE8686A0E491AC617465F318D44FFDDD2.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap'
-[2017.10.23-04.48.42:726][244]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap
-[2017.10.23-04.48.49:220][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.48.49:333][503]LogSavePackage: Save=99.90ms
-[2017.10.23-04.48.49:333][503]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap0CFE48C4413E78DBB2B7C79EC3CCE9E7.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap'
-[2017.10.23-04.48.49:336][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap.umap
-[2017.10.23-04.48.49:357][503]LogFileHelpers: Saving map 'NewMap' took 0.184
-[2017.10.23-04.48.50:159][546]LogAIModule: Creating AISystem for world NewMap2
-[2017.10.23-04.48.50:177][546]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.48.50:177][546]LightingResults: New page: Lighting Build
-[2017.10.23-04.48.50:179][546]LoadErrors: New page: Loading map: NewMap2.umap
-[2017.10.23-04.48.50:180][546]MapCheck: New page: Map Check
-[2017.10.23-04.48.50:180][546]LightingResults: New page: Lighting Build
-[2017.10.23-04.48.50:194][546]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.48.50:217][546]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.48.50:266][546]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.086ms to complete.
-[2017.10.23-04.48.50:266][546]LogFileHelpers: Loading map 'NewMap2' took 0.089
-[2017.10.23-04.48.56:774][920]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
-[2017.10.23-04.49.07:259][509]LogAIModule: Creating AISystem for world NewMap3
-[2017.10.23-04.49.08:856][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap2" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.49.08:965][509]LogSavePackage: Save=87.20ms
-[2017.10.23-04.49.08:965][509]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap244A7672F48E977A927B9D29F7FF1A2F3.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap'
-[2017.10.23-04.49.08:968][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap2.umap
-[2017.10.23-04.49.08:989][509]LogFileHelpers: Saving map 'NewMap2' took 0.189
-[2017.10.23-04.49.08:989][509]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.49.08:989][509]LightingResults: New page: Lighting Build
-[2017.10.23-04.49.08:991][509]LoadErrors: New page: Loading map: NewMap3.umap
-[2017.10.23-04.49.08:992][509]MapCheck: New page: Map Check
-[2017.10.23-04.49.08:992][509]LightingResults: New page: Lighting Build
-[2017.10.23-04.49.09:013][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.49.09:038][509]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.49.09:091][509]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.035ms to complete.
-[2017.10.23-04.49.09:091][509]LogFileHelpers: Loading map 'NewMap3' took 0.103
-[2017.10.23-04.49.25:658][482]LogParticles:Warning: MaxCount = 38925 for Emitter ParticleSpriteEmitter_0 (/Game/FlowAnalysis.FlowAnalysis)
-[2017.10.23-04.49.27:013][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlowAnalysis" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset" SILENT=true
-[2017.10.23-04.49.27:033][560]LogSavePackage: Save=16.29ms
-[2017.10.23-04.49.27:033][560]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/FlowAnalysis422461424A08382637B7E39AB54E6C1C.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset'
-[2017.10.23-04.49.27:039][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/FlowAnalysis.uasset
-[2017.10.23-04.49.40:069][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.49.40:117][315]LogSavePackage: Save=30.39ms
-[2017.10.23-04.49.40:117][315]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap341D337084BE54307CA8BC4A10D33A451.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.49.40:119][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.49.44:909][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.49.44:958][598]LogSavePackage: Save=34.41ms
-[2017.10.23-04.49.44:958][598]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap3D99B594D489F0D94356C768BB50AA956.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.49.44:960][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.49.49:956][879]LogAIModule: Creating AISystem for world NewMap4
-[2017.10.23-04.49.50:974][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap3" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.49.51:023][879]LogSavePackage: Save=37.94ms
-[2017.10.23-04.49.51:023][879]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap3BD7DAD8B4FAF5B2B716C03B40C42AA9B.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap'
-[2017.10.23-04.49.51:027][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap3.umap
-[2017.10.23-04.49.51:044][879]LogFileHelpers: Saving map 'NewMap3' took 0.118
-[2017.10.23-04.49.51:044][879]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.49.51:044][879]LightingResults: New page: Lighting Build
-[2017.10.23-04.49.51:046][879]LoadErrors: New page: Loading map: NewMap4.umap
-[2017.10.23-04.49.51:046][879]MapCheck: New page: Map Check
-[2017.10.23-04.49.51:046][879]LightingResults: New page: Lighting Build
-[2017.10.23-04.49.51:061][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.49.51:080][879]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.49.51:136][879]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.527ms to complete.
-[2017.10.23-04.49.51:140][879]LogFileHelpers: Loading map 'NewMap4' took 0.096
-[2017.10.23-04.49.59:648][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap4" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.49.59:770][360]LogSavePackage: Save=97.95ms
-[2017.10.23-04.49.59:770][360]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap4C29BC60D463A7B5BDF6CA6960A2F448A.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap'
-[2017.10.23-04.49.59:773][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap4.umap
-[2017.10.23-04.49.59:794][360]LogFileHelpers: Saving map 'NewMap4' took 0.193
-[2017.10.23-04.50.00:290][387]LogAIModule: Creating AISystem for world NewMap5
-[2017.10.23-04.50.00:304][387]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-04.50.00:304][387]LightingResults: New page: Lighting Build
-[2017.10.23-04.50.00:306][387]LoadErrors: New page: Loading map: NewMap5.umap
-[2017.10.23-04.50.00:306][387]MapCheck: New page: Map Check
-[2017.10.23-04.50.00:306][387]LightingResults: New page: Lighting Build
-[2017.10.23-04.50.00:323][387]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-04.50.00:343][387]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-04.50.00:396][387]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.33ms to complete.
-[2017.10.23-04.50.00:396][387]LogFileHelpers: Loading map 'NewMap5' took 0.092
-[2017.10.23-04.50.05:435][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap5" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.50.05:481][681]LogSavePackage: Save=33.36ms
-[2017.10.23-04.50.05:481][681]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap571C6F77543933D8B0C19398C65B529AC.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap'
-[2017.10.23-04.50.05:482][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap
-[2017.10.23-04.50.10:146][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap5" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.50.10:188][950]LogSavePackage: Save=28.58ms
-[2017.10.23-04.50.10:188][950]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap5F473D19B47B5FB0F32F82AB3A5CAC24D.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap'
-[2017.10.23-04.50.10:189][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap
-[2017.10.23-04.50.14:421][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap5" FILE="../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-04.50.14:471][179]LogSavePackage: Save=36.98ms
-[2017.10.23-04.50.14:471][179]LogSavePackage: Moving '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/NewMap5DB86571A4AC276F71523B39B776FEE93.tmp' to '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap'
-[2017.10.23-04.50.14:474][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/NewMap5.umap
-[2017.10.23-04.50.14:492][179]LogFileHelpers: Saving map 'NewMap5' took 0.115
-[2017.10.23-04.50.16:215][272]LogCascade: Quitting Cascade. FXSystem=0x00000189C7F47A60
-[2017.10.23-04.50.16:400][272]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.10.23-04.50.16:622][273]Cmd: QUIT_EDITOR
-[2017.10.23-04.50.16:875][273]LogExit: Preparing to exit.
-[2017.10.23-04.50.17:994][273]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/' was aborted.
-[2017.10.23-04.50.18:011][273]LogExit: Editor shut down
-[2017.10.23-04.50.18:011][273]LogExit: Transaction tracking system shut down
-[2017.10.23-04.50.18:018][273]LogTemp:Display: Removed shader map 0x00000189EAA18100 from material 0x000001898E08E480
-[2017.10.23-04.50.18:018][273]LogTemp:Display: Removed shader map 0x00000189FD0C8B80 from material 0x000001898E08E480
-[2017.10.23-04.50.18:019][273]LogTemp:Display: Removed shader map 0x00000189CAD5AB00 from material 0x00000189CAD45900
-[2017.10.23-04.50.18:085][273]LogObj: Freed 0b from 0 cluster array pools.
-[2017.10.23-04.50.18:085][273]LogExit: Object subsystem successfully closed.
-[2017.10.23-04.50.18:097][273]LogD3D11RHI: Shutdown
-[2017.10.23-04.50.18:097][273]LogD3D11RHI: CleanupD3DDevice
-[2017.10.23-04.50.18:180][273]LogD3D11RHI:Error: Crashed freeing up the D3D11 device.
-[2017.10.23-04.50.18:180][273]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module MaterialEditor (504)
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module DistCurveEditor (502)
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module Cascade (500)
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.10.23-04.50.18:197][273]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
-[2017.10.23-04.50.18:197][273]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
-[2017.10.23-04.50.18:199][273]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Collections/' was aborted.
-[2017.10.23-04.50.18:199][273]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Content/Developers/isyna/Collections/' was aborted.
-[2017.10.23-04.50.18:199][273]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/Documents/Unreal Projects/LocalMesh/Saved/Collections/' was aborted.
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module CrashTracker (488)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SceneOutliner (486)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.10.23-04.50.18:199][273]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.10.23-04.50.18:200][273]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.10.23-04.50.18:295][273]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.10.23-04.50.18:337][273]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.10.23-04.50.18:338][273]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.10.23-04.50.18:412][273]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.10.23-04.50.18:413][273]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.10.23-04.50.18:414][273]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.10.23-04.50.18:414][273]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.10.23-04.50.18:414][273]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.10.23-04.50.18:414][273]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.10.23-04.50.18:415][273]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.10.23-04.50.18:415][273]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.10.23-04.50.18:415][273]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.10.23-04.50.18:415][273]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.10.23-04.50.18:516][273]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.10.23-04.50.18:824][273]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.10.23-04.50.18:825][273]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.10.23-04.50.18:827][273]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.10.23-04.50.19:011][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.10.23-04.50.19:012][273]LogDirectoryWatcher: A directory notification for '../../../../../../Users/isyna/Documents/Unreal Projects/LocalMesh/Content/' was aborted.
-[2017.10.23-04.50.19:012][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.10.23-04.50.19:012][273]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.10.23-04.50.19:062][273]LogDerivedDataCache: Shutdown
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.10.23-04.50.19:062][273]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.10.23-04.50.19:063][273]LogOnline:Display: Unloading online subsystem: NULL
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.10.23-04.50.19:063][273]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.10.23-04.50.19:063][273]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.10.23-04.50.19:063][273]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1B866A23-4912-CDA1-8410-6DAB3D5B5C12%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=b1f5636e4f0726208e4f3d823235dbc5%7C773a9807371341cd80bd829189fefd88%7C042ea511-39e4-45a7-b217-a3e9f0b1bc1a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.10.23-04.50.19:087][273]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.10.23-04.50.19:089][273]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.10.23-04.50.19:089][273]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.10.23-04.50.19:089][273]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.10.23-04.50.19:089][273]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.10.23-04.50.19:089][273]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.10.23-04.50.19:090][273]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.10.23-04.50.19:092][273]LogExit: Exiting.
-[2017.10.23-04.50.19:106][273]Log file closed, 10/23/17 00:50:19
+[2017.10.23-04.57.00:385][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-04.57.00:385][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.23-04.57.00:398][  0]LogInit: Computer: DESKTOP-9EHHM5S
+[2017.10.23-04.57.00:398][  0]LogInit: User: isyna
+[2017.10.23-04.57.00:398][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.10.23-04.57.00:398][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.10.23-04.57.00:398][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.23-04.57.00:398][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.23-04.57.00:398][  0]LogMemory: Process Physical Memory: 263.28 MB used, 263.28 MB peak
+[2017.10.23-04.57.00:398][  0]LogMemory: Process Virtual Memory: 262.26 MB used, 262.26 MB peak
+[2017.10.23-04.57.00:398][  0]LogMemory: Physical Memory: 8049.09 MB used,  24654.81 MB free, 32703.89 MB total
+[2017.10.23-04.57.00:398][  0]LogMemory: Virtual Memory: 644.83 MB used,  24654.81 MB free, 134217728.00 MB total
+[2017.10.23-04.57.00:505][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.10.23-04.57.01:260][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.23-04.57.01:299][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.23-04.57.01:299][  0]LogD3D11RHI:       8074/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.10.23-04.57.01:300][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.23-04.57.01:300][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.23-04.57.01:300][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.23-04.57.01:307][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.23-04.57.01:308][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.23-04.57.01:308][  0]LogWindows: EnumDisplayDevices:
+[2017.10.23-04.57.01:308][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.23-04.57.01:308][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.10.23-04.57.01:308][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.10.23-04.57.01:308][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.23-04.57.01:308][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.23-04.57.01:308][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.23-04.57.01:308][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.23-04.57.01:308][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.23-04.57.01:308][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.23-04.57.01:338][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.23-04.57.01:349][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.23-04.57.01:487][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/isyna/GitHub/CompressibleFlow/Intermediate/Shaders/WorkingDirectory/19924/).
+[2017.10.23-04.57.01:487][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/isyna/AppData/Local/Temp/UnrealShaderWorkingDir/2731C6E545EA70E502C56AA7FFC338A7/'.
+[2017.10.23-04.57.01:487][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.23-04.57.02:715][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.23-04.57.02:792][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.23-04.57.02:877][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.23-04.57.02:956][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.23-04.57.03:028][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.23-04.57.03:113][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.23-04.57.03:186][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.23-04.57.03:249][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.23-04.57.03:306][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.23-04.57.03:369][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.23-04.57.03:429][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.23-04.57.03:492][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.23-04.57.03:560][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.23-04.57.03:635][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.23-04.57.03:697][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.23-04.57.03:841][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.23-04.57.03:841][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.23-04.57.03:894][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.23-04.57.04:009][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.23-04.57.04:058][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.23-04.57.04:123][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.23-04.57.04:187][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.23-04.57.04:251][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.23-04.57.04:318][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.23-04.57.04:318][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.23-04.57.04:924][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache: Loaded boot cache 0.06s 61MB C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/isyna/GitHub/CompressibleFlow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/isyna/GitHub/CompressibleFlow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.23-04.57.04:981][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.23-04.57.04:999][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.23-04.57.05:011][  0]LogDerivedDataCache: Using Local data cache path C:/Users/isyna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.23-04.57.05:021][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.23-04.57.05:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-04.57.05:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-04.57.05:326][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-04.57.05:329][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.23-04.57.05:569][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.23-04.57.05:622][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.23-04.57.05:679][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.23-04.57.05:679][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.23-04.57.05:679][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.23-04.57.06:324][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: localmesh, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4029464774
+[2017.10.23-04.57.06:379][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.10.23-04.57.06:436][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029766 seconds
+[2017.10.23-04.57.06:441][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
+[2017.10.23-04.57.06:441][  0]LogUObjectAllocator: 7077248 out of 0 bytes used by permanent object pool.
+[2017.10.23-04.57.06:441][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.23-04.57.06:520][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.23-04.57.08:538][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.23-04.57.08:583][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.23-04.57.09:120][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.23-04.57.09:576][  0]SourceControl: Info Source control is disabled
+[2017.10.23-04.57.09:614][  0]SourceControl: Info Source control is disabled
+[2017.10.23-04.57.09:667][  0]SourceControl: Info Source control is disabled
+[2017.10.23-04.57.09:719][  0]SourceControl: Info Source control is disabled
+[2017.10.23-04.57.10:079][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.23-04.57.10:079][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.10.23-04.57.10:079][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.10.23-04.57.11:197][  0]LogEngine: Initializing Engine...
+[2017.10.23-04.57.11:198][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.23-04.57.11:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.23-04.57.11:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.23-04.57.11:478][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.23-04.57.11:484][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-04.57.11:504][  0]LogInit: FAudioDevice initialized.
+[2017.10.23-04.57.11:533][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/isyna/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.23-04.57.11:543][  0]LogInit: Texture streaming: Enabled
+[2017.10.23-04.57.11:676][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.23-04.57.11:785][  0]LogInit: Transaction tracking system initialized
+[2017.10.23-04.57.12:247][  0]BlueprintLog: New page: Editor Load
+[2017.10.23-04.57.13:330][  0]LocalizationService: Info Localization service is disabled
+[2017.10.23-04.57.14:593][  0]LogConsoleResponse:Display: 
+[2017.10.23-04.57.14:729][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.23-04.57.14:729][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.23-04.57.15:535][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/GitHub/CompressibleFlow/Content/' took 0.01s
+[2017.10.23-04.57.16:100][  0]SourceControl: Info Source control is disabled
+[2017.10.23-04.57.16:100][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.23-04.57.16:101][  0]LightingResults: New page: Lighting Build
+[2017.10.23-04.57.16:156][  0]MapCheck: New page: Map Check
+[2017.10.23-04.57.16:156][  0]LightingResults: New page: Lighting Build
+[2017.10.23-04.57.16:378][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.23-04.57.16:397][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-04.57.16:402][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.23-04.57.16:406][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.23-04.57.16:449][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.592ms to complete.
+[2017.10.23-04.57.16:449][  0]LogFileHelpers: Loading map 'Template_Default' took 0.349
+[2017.10.23-04.57.16:769][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.23-04.57.16:804][  0]LogCollectionManager: Loaded 0 collections in 0.002078 seconds
+[2017.10.23-04.57.16:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/GitHub/CompressibleFlow/Saved/Collections/' took 0.01s
+[2017.10.23-04.57.16:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/GitHub/CompressibleFlow/Content/Developers/isyna/Collections/' took 0.01s
+[2017.10.23-04.57.16:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isyna/GitHub/CompressibleFlow/Content/Collections/' took 0.01s
+[2017.10.23-04.57.16:914][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.23-04.57.16:924][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2246 classes and 455 folders.
+[2017.10.23-04.57.17:009][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.23-04.57.17:047][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.23-04.57.17:055][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.23-04.57.17:157][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.10.23-04.57.17:157][  0]LogLoad: (Engine Initialization) Total time: 19.06 seconds
+[2017.10.23-04.57.17:157][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.10.23-04.57.17:157][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.23-04.57.17:497][  0]LogOcInput: OculusInput pre-init called
+[2017.10.23-04.57.17:515][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.10.23-04.57.17:516][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.23-04.57.17:521][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.23-04.57.17:648][  0]LogRenderer: Reallocating scene render targets to support 1372x936 NumSamples 1 (Frame:2).
+[2017.10.23-04.57.17:832][  1]LogAssetRegistry: Asset discovery search completed in 11.4761 seconds
+[2017.10.23-04.57.17:832][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.10.23-04.57.17:832][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.10.23-04.57.18:499][  3]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-04.57.57:227][236]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.23-04.57.57:235][236]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-04.58.07:095][749]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.23-04.58.07:172][750]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LocalMesh
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display: BranchPath = DESKTOP-9EHHM5S/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-9EHHM5S/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\isyna\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.10.23-04.58.07:172][750]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.10.23-04.58.20:066][377]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-04.58.20:100][377]LogAIModule: Creating AISystem for world NewMap5
+[2017.10.23-04.58.20:123][377]Cmd: MAP LOAD FILE="../../../../../../Users/isyna/GitHub/CompressibleFlow/Content/NewMap5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.23-04.58.20:123][377]LightingResults: New page: Lighting Build
+[2017.10.23-04.58.20:125][377]LoadErrors: New page: Loading map: NewMap5.umap
+[2017.10.23-04.58.20:125][377]MapCheck: New page: Map Check
+[2017.10.23-04.58.20:125][377]LightingResults: New page: Lighting Build
+[2017.10.23-04.58.20:135][377]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.23-04.58.20:160][377]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.23-04.58.20:203][377]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.321ms to complete.
+[2017.10.23-04.58.20:203][377]LogFileHelpers: Loading map 'NewMap5' took 0.080
+[2017.10.23-04.58.49:683][747]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.10.23-04.58.51:906][867]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.23-04.58.52:146][868]Cmd: QUIT_EDITOR
+[2017.10.23-04.58.52:230][868]LogExit: Preparing to exit.
+[2017.10.23-04.58.52:641][868]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/GitHub/CompressibleFlow/Content/' was aborted.
+[2017.10.23-04.58.52:656][868]LogExit: Editor shut down
+[2017.10.23-04.58.52:656][868]LogExit: Transaction tracking system shut down
+[2017.10.23-04.58.52:713][868]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.23-04.58.52:713][868]LogExit: Object subsystem successfully closed.
+[2017.10.23-04.58.52:734][868]LogD3D11RHI: Shutdown
+[2017.10.23-04.58.52:734][868]LogD3D11RHI: CleanupD3DDevice
+[2017.10.23-04.58.52:820][868]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.23-04.58.52:840][868]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (502)
+[2017.10.23-04.58.52:840][868]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (500)
+[2017.10.23-04.58.52:840][868]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.10.23-04.58.52:840][868]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2017.10.23-04.58.52:840][868]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2017.10.23-04.58.52:841][868]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/GitHub/CompressibleFlow/Content/Collections/' was aborted.
+[2017.10.23-04.58.52:841][868]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/GitHub/CompressibleFlow/Content/Developers/isyna/Collections/' was aborted.
+[2017.10.23-04.58.52:841][868]LogDirectoryWatcher: A directory notification for 'C:/Users/isyna/GitHub/CompressibleFlow/Saved/Collections/' was aborted.
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module CrashTracker (488)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module SceneOutliner (486)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.10.23-04.58.52:841][868]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.10.23-04.58.52:842][868]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.10.23-04.58.52:957][868]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.10.23-04.58.53:000][868]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.10.23-04.58.53:001][868]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.10.23-04.58.53:001][868]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.10.23-04.58.53:045][868]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.10.23-04.58.53:046][868]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.10.23-04.58.53:046][868]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.10.23-04.58.53:046][868]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.10.23-04.58.53:046][868]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.10.23-04.58.53:047][868]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.10.23-04.58.53:047][868]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.10.23-04.58.53:047][868]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.10.23-04.58.53:047][868]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.10.23-04.58.53:147][868]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.10.23-04.58.53:579][868]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.10.23-04.58.53:580][868]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.10.23-04.58.53:582][868]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.10.23-04.58.53:762][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.23-04.58.53:762][868]LogDirectoryWatcher: A directory notification for '../../../../../../Users/isyna/GitHub/CompressibleFlow/Content/' was aborted.
+[2017.10.23-04.58.53:762][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.23-04.58.53:762][868]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.10.23-04.58.53:762][868]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.10.23-04.58.53:762][868]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.10.23-04.58.53:762][868]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.10.23-04.58.53:763][868]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.10.23-04.58.53:763][868]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.10.23-04.58.53:763][868]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.10.23-04.58.53:763][868]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.10.23-04.58.53:763][868]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.10.23-04.58.54:096][868]LogDerivedDataCache: Shutdown
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.10.23-04.58.54:096][868]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.10.23-04.58.54:096][868]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.10.23-04.58.54:096][868]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.23-04.58.54:097][868]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3D150A09-4B59-3080-AF35-C2A86321241D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=b1f5636e4f0726208e4f3d823235dbc5%7C773a9807371341cd80bd829189fefd88%7C042ea511-39e4-45a7-b217-a3e9f0b1bc1a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.23-04.58.54:098][868]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.10.23-04.58.54:099][868]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.23-04.58.54:099][868]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.23-04.58.54:100][868]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.23-04.58.54:103][868]LogExit: Exiting.
+[2017.10.23-04.58.54:116][868]Log file closed, 10/23/17 00:58:54
